@@ -1,32 +1,46 @@
-# React + TypeScript + Vite
+# 🇺🇾 Documentos UY Tool
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Una herramienta web que busca centralizar las **validaciones y generaciones de documentos uruguayos** como:
 
-Currently, two official plugins are available:
+- RUT (Registro Único Tributario)
+- Cédula de Identidad Uruguaya
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Construida con **React + TypeScript + Tailwind CSS**, enfocada en una arquitectura limpia, escalable y reutilizable.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Demo
 
-## Expanding the Oxlint configuration
+> Puedes ver el proyecto en funcionamiento en GitHub Pages (o Vercel):
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+🔗 https://tu-usuario.github.io/documentos-uy-tool
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+---
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## ✨ Funcionalidades
+
+### 🧾 RUT (Registro Único Tributario)
+- ✔ Validación de RUT uruguayo
+- ✔ Generación de RUT manual
+- ✔ Generación de RUT aleatorio
+- ✔ Cálculo de dígito verificador
+- ✔ Formato consistente de salida
+
+### 🪪 Cédula de Identidad
+- ✔ Validación de cédula uruguaya
+- ✔ Generación de cédula válida
+- ✔ Generación aleatoria
+- ✔ Cálculo de dígito verificador según algoritmo oficial
+
+---
+
+## 🧠 Características técnicas
+
+- ⚛️ React + TypeScript
+- 🎨 Tailwind CSS (tema dark moderno)
+- 🧱 Arquitectura modular por dominio
+- ♻️ Componentes reutilizables (Button, Input, Card, ResultBox)
+- 🔧 Separación de lógica en services
+- 📦 Estructura escalable para agregar nuevos documentos
+
+---
