@@ -15,7 +15,7 @@ export default function Navbar() {
             <div className="max-w-5xl mx-auto px-4 py-2 flex items-center justify-between">
 
                 <h1 className="text-sm font-semibold tracking-tight text-zinc-100">
-                    Documentos UY Tool
+                    Documentos UY
                 </h1>
 
                 <nav className="flex gap-1">

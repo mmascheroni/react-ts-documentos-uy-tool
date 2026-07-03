@@ -15,7 +15,7 @@ export function CedulaGenerator() {
         <div className="space-y-4">
 
 
-            <Button onClick={handleRandom} variant="primary">
+            <Button onClick={handleRandom} variant="success">
                 Generar cédula aleatoria
             </Button>
 

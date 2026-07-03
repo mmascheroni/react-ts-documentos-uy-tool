@@ -76,12 +76,12 @@ export function RutGenerator() {
             {/* BUTTON */}
             {mode === "random" ? (
                 <div className="flex justify-center">
-                    <Button onClick={handleRandom}>
+                    <Button onClick={handleRandom} variant="success">
                         Generar RUT aleatorio
                     </Button>
                 </div>
             ) : (
-                <Button onClick={handleManual}>
+                <Button onClick={handleManual} variant="success">
                     Generar RUT manual
                 </Button>
             )}

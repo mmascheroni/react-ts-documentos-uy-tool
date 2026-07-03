@@ -3,7 +3,7 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
-    "homepage": "https://mmascheroni.github.io/react-ts-documentos-uy-tool",
+    "homepage": "https://mmascheroni.github.io/react-ts-documentos-uy",
     "scripts": {
         "dev": "vite",
         "build": "tsc -b && vite build",

@@ -1,8 +1,29 @@
+import { Link } from "react-router-dom";
+import { Button } from "../components/Button";
+
 export default function Home() {
     return (
-        <div className="p-6">
-        <h1 className="text-2xl font-bold">Documentos UY</h1>
-        <p className="mt-2">Sistema de validación y generación de RUT y Cédula</p>
+        <div className="flex flex-col items-center justify-center text-center py-16">
+
+            <p className="mt-4 max-w-2xl text-zinc-400">
+                Herramienta para validar y generar documentos uruguayos como
+                RUT y Cédula de Identidad de forma rápida y sencilla.
+            </p>
+
+            <div className="mt-8 flex flex-wrap justify-center gap-4">
+                <Link to="/rut">
+                    <Button className="min-w-40">
+                        Ir a RUT
+                    </Button>
+                </Link>
+
+                <Link to="/cedula">
+                    <Button variant="success" className="min-w-40">
+                        Ir a Cédula
+                    </Button>
+                </Link>
+            </div>
+
         </div>
     );
 }

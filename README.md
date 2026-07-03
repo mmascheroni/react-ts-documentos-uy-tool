@@ -1,4 +1,4 @@
-# 🇺🇾 Documentos UY Tool
+# 🇺🇾 Documentos UY
 
 Una herramienta web que busca centralizar las **validaciones y generaciones de documentos uruguayos** como:
 
@@ -13,13 +13,14 @@ Construida con **React + TypeScript + Tailwind CSS**, enfocada en una arquitectu
 
 > Puedes ver el proyecto en funcionamiento en GitHub Pages (o Vercel):
 
-🔗 https://mmascheroni.github.io/react-ts-documentos-uy-tool
+🔗 https://mmascheroni.github.io/react-ts-documentos
 
 ---
 
 ## ✨ Funcionalidades
 
 ### 🧾 RUT (Registro Único Tributario)
+
 - ✔ Validación de RUT uruguayo
 - ✔ Generación de RUT manual
 - ✔ Generación de RUT aleatorio
@@ -27,6 +28,7 @@ Construida con **React + TypeScript + Tailwind CSS**, enfocada en una arquitectu
 - ✔ Formato consistente de salida
 
 ### 🪪 Cédula de Identidad
+
 - ✔ Validación de cédula uruguaya
 - ✔ Generación de cédula válida
 - ✔ Generación aleatoria
