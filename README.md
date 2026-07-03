@@ -13,7 +13,7 @@ Construida con **React + TypeScript + Tailwind CSS**, enfocada en una arquitectu
 
 > Puedes ver el proyecto en funcionamiento en GitHub Pages (o Vercel):
 
-🔗 https://mmascheroni.github.io/documentos-uy-tool
+🔗 https://mmascheroni.github.io/react-ts-documentos-uy-tool
 
 ---
 
