@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+import logoDocumentoUY from "../assets/logo-documentos-uy.png";
 
 export default function Navbar() {
     const location = useLocation();
@@ -12,10 +13,10 @@ export default function Navbar() {
 
     return (
         <header className="sticky top-0 z-50 border-b border-zinc-800 bg-zinc-900/60 backdrop-blur-md">
-            <div className="max-w-5xl h-14 mx-auto px-2.5 py-1 flex items-center justify-between">
+            <div className="max-w-5xl h-20 mx-auto px-2.5 py-1 flex items-center justify-between ml-8">
 
-                <h1 className="text-sm font-semibold tracking-tight text-zinc-100">
-                    Documentos UY
+                <h1 className="">
+                    <img src={logoDocumentoUY} alt="Logo Documentos UY" className="rounded-xl w-18" />
                 </h1>
 
                 <nav className="flex gap-1">
