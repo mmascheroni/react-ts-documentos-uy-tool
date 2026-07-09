@@ -38,7 +38,7 @@ export default function Cedula() {
             </div>
 
             {/* Content */}
-            <div className="border border-zinc-800 rounded-lg p-4 bg-zinc-900/40">
+            <div className="border border-zinc-800 rounded-lg p-4 bg-zinc-900/60">
                 {mode === "validar" ? (
                     <CedulaValidator />
                 ) : (

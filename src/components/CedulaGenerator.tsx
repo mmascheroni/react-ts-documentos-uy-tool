@@ -21,8 +21,8 @@ export function CedulaGenerator() {
 
             {cedula && (
                 <Card>
-                    <p className="font-bold">Cédula generada</p>
-                    <p className="text-lg">{cedula}</p>
+                    <p className="text-sm text-zinc-400">Cédula generada</p>
+                    <p className="text-xl font-semibold tracking-wide">{cedula}</p>
                 </Card>
             )}
 

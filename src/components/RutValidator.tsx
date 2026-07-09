@@ -27,7 +27,7 @@ export function RutValidator() {
                 placeholder="Ej: 215084310018"
             />
 
-            <Button onClick={handleValidate}>
+            <Button className="ml-4" onClick={handleValidate}>
                 Validar
             </Button>
 

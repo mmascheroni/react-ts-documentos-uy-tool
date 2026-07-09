@@ -11,8 +11,8 @@ export function Card({ children, className = "" }: CardProps) {
             className={`
                 rounded-lg
                 border
-                border-zinc-800
-                bg-zinc-900/40
+                border-sky-800
+                bg-sky-900/40
                 backdrop-blur
                 p-4
                 text-zinc-100

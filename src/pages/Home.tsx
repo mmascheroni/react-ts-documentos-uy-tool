@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <div className="flex flex-col items-center justify-center text-center py-16">
 
-            <p className="mt-4 max-w-2xl text-zinc-400">
+            <p className="mt-4 max-w-2xl text-zinc-200">
                 Herramienta para validar y generar documentos uruguayos como
                 RUT y Cédula de Identidad de forma rápida y sencilla.
             </p>

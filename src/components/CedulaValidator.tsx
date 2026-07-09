@@ -27,7 +27,7 @@ export function CedulaValidator() {
                 placeholder="Ej: 12345678"
             />
 
-            <Button onClick={handleValidate}>
+            <Button className="ml-4" onClick={handleValidate}>
                 Validar
             </Button>
 

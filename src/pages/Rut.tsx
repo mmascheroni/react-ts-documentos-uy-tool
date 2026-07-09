@@ -44,7 +44,7 @@ export default function Rut() {
 
         </div>
 
-            <div className="border rounded-lg p-4">
+            <div className="border border-zinc-800 rounded-lg p-4 bg-zinc-900/60">
                 {mode === "validar" ? (
                     <RutValidator />
                 ) : (
